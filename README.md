@@ -27,3 +27,32 @@ The dataset used is the [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/
 - Scikit-learn (metrics, class weights)
 
 ## 📁 Dataset Structure
+chest_xray/
+├── train/
+│ ├── NORMAL/
+│ └── PNEUMONIA/
+├── val/
+│ ├── NORMAL/
+│ └── PNEUMONIA/
+└── test/
+├── NORMAL/
+└── PNEUMONIA/
+
+## 🚀 How to Run
+1. Clone the repository.
+2. Download the dataset from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
+3. Update the dataset path in the notebook.
+4. Run all cells in `X_ray_classification_PNEUMONIA.ipynb`.
+
+## 📈 Results Visualization
+- Training vs validation accuracy/loss curves
+- Confusion matrix
+- Sample predictions with images
+
+## 📌 Future Improvements
+- Experiment with other pre-trained models (VGG16, DenseNet)
+- Deploy as a web app using Flask or FastAPI
+- Add Grad-CAM visualizations for model interpretability
+
+## 📄 License
+This project is for educational purposes only.
